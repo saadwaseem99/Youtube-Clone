@@ -17,6 +17,10 @@
     border-radius: 8px;
     
 }
+.sidebar-icon-list-title:hover{
+    background:none;
+        
+}
 
 .sidebar-icon-list{
     display: flex;
