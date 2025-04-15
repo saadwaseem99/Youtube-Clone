@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <title>Youtube Clone with HTML and CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/Hamburger.svg">
+            <img src="icons/Youtube Logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="search" placeholder="Search">
+            <button class="search-button" type="submit"><img src="icons/search.svg"></button>
+            <div class="tooltip">
+                <button class="search-mic-button"><img src="icons/mic.svg">
+                </button>
+                <p class="tooltip-text">Search with your voice</p>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="right-inner-section">
+                <div class="create-button">
+                    <img src="icons/plus.svg">
+                    <p>Create</p>
+                </div>
+                <div class="tooltip">
+                    <img class="notification-icon" src="icons/bell .svg">
+                    <p class="tooltip-text ">Notification</p>
+                </div>
+                <img src="Images/Channel Profile.jpg">
+            </div>
+        </div>
+    </header>
+    <!-- Sidebar-->
+    <nav>
+        <div class="sidebar">
+            <div class="sidebar-inner-section">
+                <div class="sidebar-icon-list">
+                    <img src="icons/home.svg">
+                    <p>Home</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/short.svg">
+                    <p>Shorts</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/subscription.svg">
+                    <p>Subscriptions</p>
+
+                </div>
+            </div>
+
+            <div class="sidebar-inner-section">
+                <div class="sidebar-icon-list">
+                    <p>You &nbsp; &gt;</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/history.svg">
+                    <p>History</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/playlist.svg">
+                    <p>Playlists</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/your videos.svg">
+                    <p>Your videos</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/watch later.svg">
+                    <p>Watch Later</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/liked videos.svg">
+                    <p>Liked videos</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/download.svg">
+                    <p>Downloads</p>
+                </div>
+            </div>
+            <div class="sidebar-inner-section">
+                <div class="sidebar-icon-list">
+                    <p>Explore</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/trending.svg">
+                    <p>Trending</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/music.svg">
+                    <p>Music</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/gaming.svg">
+                    <p>Gaming</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/news.svg">
+                    <p>News</p>
+                </div>
+                <div class="sidebar-icon-list">
+                    <img src="icons/sport.svg">
+                    <p>Sport</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar End-->
+    <div class="video-page">
+        <!-- Youtube video 1 -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 1.avif">
+                <p class="youtube-video-time">2:27:50</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> Mehmed: Fetihler Sultanı 41. Bölüm @trt1</p>
+                    <p class="video-info-sub-title">Mehmed: Fetihler Sultanı </p>
+                    <p class="video-info-sub-title">262K views &#x2022; 6 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Youtube Video 1 End -->
+
+        <!-- Youtube video 2 -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 2.avif">
+                <p class="youtube-video-time">6:31:24</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> HTML & CSS Full Course - Beginner to Pro</p>
+                    <p class="video-info-sub-title">SuperSimpleDev </p>
+                    <p class="video-info-sub-title">11M views &#x2022; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <!-- Youtube Video 2 End -->
+        <!-- Youtube video 3 -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 3.avif">
+                <p class="youtube-video-time">5:10</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels3.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> How to create the Google Map API key and use it on WpResidence
+                        theme</p>
+                    <p class="video-info-sub-title">Real Estate WordPress Themes</p>
+                    <p class="video-info-sub-title">8.9K views &#x2022; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <!-- Youtube Video 3 End -->
+
+        <!-- Youtube video 4 -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 4.avif">
+                <p class="youtube-video-time">12:40</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels4.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> Semi-Final 1 - India vs New Zealand - 2019 World Cup | Full Match
+                        Highlights</p>
+                    <p class="video-info-sub-title">Too Crickety 2.0 </p>
+                    <p class="video-info-sub-title">2.2K views &#x2022; 2 days ago</p>
+                </div>
+            </div>
+        </div>
+        <!-- Youtube Video 4 End -->
+
+        <!-- Youtube video 5 -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 5.avif">
+                <p class="youtube-video-time">8:50</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> Ulubatlı Hasan, Surlara Bayrağı Dikti! - Mehmed: Fetihler Sultanı
+                        41. Bölüm @trt1</p>
+                    <p class="video-info-sub-title">Mehmed: Fetihler Sultanı</p>
+                    <p class="video-info-sub-title">150K views &#x2022; 1 day ago</p>
+                </div>
+            </div>
+        </div>
+        <!-- Youtube Video 5 End -->
+        <!-- Youtube video 6  -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 6.avif">
+                <p class="youtube-video-time">31:46</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels6.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> Our First Experience of Luxury Punjab, Pakistan 🇵🇰</p>
+                    <p class="video-info-sub-title">Jack Aynsley Travel </p>
+                    <p class="video-info-sub-title">20K views &#x2022; 12 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Youtube Video 6 End -->
+
+        <!-- Youtube video 7  -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 7.avif">
+                <p class="youtube-video-time">29:37</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> How to put an HTML website online (on the Internet)</p>
+                    <p class="video-info-sub-title">SuperSimpelDev </p>
+                    <p class="video-info-sub-title">2M views &#x2022; 3 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Youtube Video 7 End -->
+
+        <!-- Youtube video 8  -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 8.avif">
+                <p class="youtube-video-time">31:46</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels8.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> Django Course - #12 Static Files Tutorial | How to Add CSS, JS & Images
+                        to Your Django App</p>
+                    <p class="video-info-sub-title">The RishabhDev </p>
+                    <p class="video-info-sub-title">11 views &#x2022; 1 day ago</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Youtube Video 8 End -->
+
+        <!-- Youtube video 9  -->
+        <div class="youtube-video">
+
+            <div class="video-thumbnail">
+                <img src="images/thumbnail 9.avif">
+                <p class="youtube-video-time">31:46</p>
+            </div>
+            <div class="video-details">
+                <div class="video-author-img">
+                    <img src="Images/channels9.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-info-title"> Electricity Price Reduced Again | PM Shahbaz Sharif Surprise For Public
+                        4PM Headlines | Mohsin Nqavi</p>
+                    <p class="video-info-sub-title">Dunya News </p>
+                    <p class="video-info-sub-title">3.9K views &#x2022; 1 hour ago</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Youtube Video 9 End -->
+    </div>
+</body>
+
+</html>
